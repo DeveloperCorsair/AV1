@@ -1,0 +1,20 @@
+[
+  {
+    "id": "0001",
+    "nome": "Administrador",
+    "telefone": "(00) 00000-0000",
+    "endereco": "Sede Aerocode",
+    "usuario": "admin",
+    "senha": "admin123",
+    "nivelPermissao": "ADMINISTRADOR"
+  },
+  {
+    "id": "0002",
+    "nome": "Henrique",
+    "telefone": "129999999",
+    "endereco": "rua arogronomilton, 900",
+    "usuario": "henrique",
+    "senha": "henrique1",
+    "nivelPermissao": "ENGENHEIRO"
+  }
+]

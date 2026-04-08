@@ -1,0 +1,29 @@
+[
+  {
+    "codigo": "43",
+    "modelo": "emb-110",
+    "tipo": "COMERCIAL",
+    "capacidade": 8,
+    "alcance": 20,
+    "pecas": [
+      {
+        "nome": "munh�o",
+        "tipo": "NACIONAL",
+        "fornecedor": "Embraer EGM",
+        "status": "EM_TRANSPORTE"
+      }
+    ],
+    "etapas": [],
+    "testes": []
+  },
+  {
+    "codigo": "56",
+    "modelo": "195-E2",
+    "tipo": "COMERCIAL",
+    "capacidade": 120,
+    "alcance": 300,
+    "pecas": [],
+    "etapas": [],
+    "testes": []
+  }
+]
