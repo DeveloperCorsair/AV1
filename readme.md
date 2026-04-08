@@ -8,8 +8,8 @@ O desafio é construir o primeiro produto da Aerocode, um sistema CLI em TypeScr
 Você precisa ter o Node.js instalado (versão 18 ou superior).
 
 ## ✏️ Passo a passo
-## 1. Entre na pasta
-cd aerocode
+## 1. Entre na pasta source
+cd src
 
 ## 2. Instale as dependências
 npm install

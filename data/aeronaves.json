@@ -11,6 +11,12 @@
         "tipo": "NACIONAL",
         "fornecedor": "Embraer EGM",
         "status": "EM_TRANSPORTE"
+      },
+      {
+        "nome": "munhao",
+        "tipo": "IMPORTADA",
+        "fornecedor": "Boeing",
+        "status": "PRONTA"
       }
     ],
     "etapas": [],
