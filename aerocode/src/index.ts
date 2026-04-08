@@ -1,3 +1,4 @@
+// amora
 import * as readlineSync from "readline-sync";
 import { Aeronave } from "./models/Aeronave";
 import { Peca } from "./models/Peca";
