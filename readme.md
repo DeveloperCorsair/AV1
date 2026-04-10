@@ -3,11 +3,14 @@
 O desafio é construir o primeiro produto da Aerocode, um sistema CLI em TypeScript para gerenciar a produção de aeronaves. Conforme as especificações, o sistema precisa contemplar o cadastro e controle de aeronaves, peças, etapas de produção, funcionários com autenticação e testes. Além disso, ele deve gerar um relatório final e persistir todos os dados em arquivos de texto. O código abaixo implementa fielmente o Diagrama UML fornecido.
 </p>
 
-# 🚀 Como rodar o projeto
-## Pré-requisitos
-Você precisa ter o Node.js instalado (versão 18 ou superior).
+## 📋 Pré-requisitos
+- Node.js (versão 18 ou superior).
+- npm (incluído com o Node.js).
 
-## ✏️ Passo a passo
+---
+
+## 🚀 Como rodar o projeto
+
 ## 1. Entre na pasta source
 cd src
 
@@ -28,6 +31,47 @@ npm start
 | :---------: | :---------: | :---------: |
 | admin | admin123 | Administrador |
 
+## Como Usar
+Após iniciar o programa, digite os números de acordo com a operação desejada:
+```
+[1] Aeronaves
+[2] Pecas
+[3] Etapas de Producao
+[4] Testes
+[5] Funcionarios
+[6] Gerar Relatorio Final
+[7] Sair / Logout
+```
+
+### Operações disponíveis:
+- Cadastrar: Possibilita o cadastro de aeronaves, peças, etapas de processo, testes das aeronaves e funcionários.
+- Listar: Possibilita a listagem de todas as aeronaves, peças, etapas de uma aeronave, testes nas aeronaves, funcionários com seus níveis de permissões e dados pessoais.
+- Atualizar: Possibilita atualizar o status de uma peça.
+- Relatório: Gera um relatório de uma aeronave a partir do nome do cliente, data de entrega da aeronave. Mostrando mais aprofundado os dados da aeronave, peças, etapas, testes e realizados.
+- Voltar: Retorna ao ambiente anterior.
+
+## 📁 Estrutura do projeto
+```
+├── 📁 data
+│   ├── ⚙️ aeronaves.json
+│   ├── ⚙️ funcionarios.json
+├── 📁 src
+│   ├── 📁 models
+│   │   ├── 📄 Aeronave.ts
+│   │   ├── 📄 Etapa.ts
+│   │   ├── 📄 Funcionario.ts
+│   │   ├── 📄 Peca.ts
+│   │   ├── 📄 Relatorio.ts
+│   │   └── 📄 Teste.ts
+│   ├── 📁 services
+│   │   └── 📄 DataService.ts
+│   ├── 📄 enums.ts
+│   └── 📄 index.ts
+├── ⚙️ .gitignore
+├── ⚙️ package-lock.json
+├── ⚙️ package.json
+└── ⚙️ tsconfig.json
+```
 
 ## 📦 O que foi implementado
 
